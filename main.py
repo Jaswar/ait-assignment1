@@ -59,6 +59,7 @@ def cookie_problem(output_file):
     # Question 2
     output_file.write(f'{p_2[1]}\n')
 
+
 def archery_problem(output_file):
     hypos = ['Beginner', 'Intermediate', 'Advanced', 'Expert']
     priors = [0.25, 0.25, 0.25, 0.25]
@@ -87,6 +88,7 @@ def archery_problem(output_file):
             maximum = p
             maximum_level = h
     output_file.write(f'{maximum_level}\n')
+
 
 if __name__ == '__main__':
     with open('group_25.txt', 'w') as output_file:
